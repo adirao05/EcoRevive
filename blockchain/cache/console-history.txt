@@ -1,0 +1,3 @@
+const receipts = await ethers.provider.getTransactionReceipt("0x76cb7ecc401f3c868c83abe9f737946da5e0b9d028dce3f791fd3b44c2fe3162")
+const receipt = await ethers.provider.getTransactionReceipt("0x76cb7ecc401f3c868c83abe9f737946da5e0b9d028dce3f791fd3b44c2fe3162")
+const receipt = await ethers.provider.getTransactionReceipt("0x76cb7e...")
