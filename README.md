@@ -65,9 +65,8 @@ On startup, scikit-learn models are trained from generated synthetic records if 
 - Random Forest recovery pathway classifier
 - Random Forest recovery-value regressor
 
-The route planner uses straight-line distances and a nearest-neighbour heuristic. It is a baseline, not live road routing or a globally optimal VRP solver.
 
-## Optional Solidity contract
+## Solidity contract
 ```bash
 cd blockchain
 npm install
@@ -79,7 +78,4 @@ In another terminal:
 cd blockchain
 npx hardhat run scripts/deploy.js --network localhost
 ```
-The FastAPI app now includes an optional Web3.py adapter. It remains disabled unless `EVM_ENABLED=true` and `EVM_RPC_URL`, `EVM_PRIVATE_KEY`, and `EVM_CONTRACT_ADDRESS` are configured. See `blockchain/README.md` for the full setup. Check `/api/blockchain/status` to verify the connection. Local SQLite hash-chain auditing remains available as a fallback.
 
-## Limitations
-Synthetic data cannot establish real-world accuracy. Blockchain hashes establish record integrity, not physical truth. QR codes do not authenticate physical devices. Real deployments need access control, privacy safeguards, evidence verification and compliance with local e-waste rules.
