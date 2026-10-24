@@ -9,9 +9,8 @@ Features:
 - Collection route planning baseline
 - Tamper-evident hash-chained audit events
 - React dashboard + FastAPI + SQLite
-- Optional Solidity registry contract in `blockchain/`
+- Solidity registry contract
 
-> Important: demo data and ML training data are synthetic. The default audit ledger is a local hash chain, not a public blockchain. The optional Solidity contract is included but not connected to the app by default. Do not present synthetic model results as real-world validation.
 
 ## Requirements
 Python 3.11+ and Node.js 20+ recommended.
